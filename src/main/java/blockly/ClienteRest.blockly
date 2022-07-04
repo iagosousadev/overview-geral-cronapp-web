@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" bpmnAble="false" formTarget="" resourceType="JAVA" ruleDescription="ClienteRest" ruleName="ClienteRest" ruleSecurity="{&quot;get&quot;:&quot;Public&quot;,&quot;execute&quot;:&quot;Public&quot;}" ruleSynchronous="false" ruleTimeout="300" ruleType="I" soap="false">
+  <metadata scale="1" scrollx="483.89999999999964" scrolly="-54.19999999999999" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field customattributes="" name="NAME">getCliente</field>
+    <comment h="80" pinned="false" w="160">ClienteRest</comment>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="3J4qyPQiT|!w1RL7^Ny;" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+        <field customattributes="" name="VAR">response</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#745ba5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="/T;QG7@2@W6O5f7GeyG[" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with">
+            <mutation items="0"/>
+          </block>
+        </value>
+        <next>
+          <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="F-(*:)0V(-`v7b~3Tc6t" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+            <field customattributes="" name="VAR">item</field>
+            <value name="VALUE">
+              <block asynccall="false" colour="#aa2f00" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="7wO2?AY19ldO@!*)EAfP" multilayer="false" namespace="cronapi.database.Operations.query" origintype="procedures_sql_callreturn" output="true" returntype="ObjectType.DATASET" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAbrir%20consulta%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20realizar%20consultas%20no%20banco%20de%20dados%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Entidade%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Consulta%20SQL%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Par%C3%A2metros%20para%20consulta%20:%20Lista%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Tabela%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.database.Operations.query%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_sql_callreturn">
+                <mutation data="%7B%22queryBuilderJson%22:%7B%22isValid%22:true,%22isEmpty%22:false,%22operationType%22:%22object%22,%22type%22:%22select%22,%22rulesEntity%22:%5B%7B%22entity%22:%22Cliente%22,%22namespace%22:%22app.entity.Cliente%22,%22alias%22:%22c%22%7D%5D,%22rulesSelect%22:%5B%7B%22func%22:%22get%22,%22field%22:%22c.nome%22,%22type%22:%22string%22%7D,%7B%22func%22:%22get%22,%22field%22:%22c.cpf%22,%22type%22:%22string%22%7D%5D,%22rulesGroupBy%22:%5B%5D,%22rulesHaving%22:%5B%5D,%22rulesOrderBy%22:%5B%5D,%22rules%22:%7B%22condition%22:%22AND%22,%22rules%22:%5B%5D,%22not%22:false,%22valid%22:true%7D,%22isRawSql%22:false,%22multiTenant%22:false,%22paginatorAutomatic%22:false,%22pagination%22:false%7D,%22entity%22:%22Cliente%22,%22entityFullName%22:%22app.entity.Cliente%22,%22filter%22:%22select%20c.nome,%20c.cpf%20from%20Cliente%20c%22,%22queryMode%22:%22object%22,%22params%22:%22%5B%5D%22,%22wizardType%22:%22SELECT%22%7D" name="{{cronapi.database.Operations.query}}"/>
+              </block>
+            </value>
+            <next>
+              <block asynccall="false" colour="#5ba55b" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="O8D:~C`|C:{TN$}89;zX" origintype="controls_forEach" output="false" tooltip="Faça algumas instruções várias vezes." type="controls_forEach">
+                <field customattributes="" name="VAR">i</field>
+                <value name="LIST">
+                  <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="PDkq[UQb^Uo!I1RYG~-=" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">item</field>
+                  </block>
+                </value>
+                <statement name="DO">
+                  <block asynccall="false" colour="#745ba5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="U4teab/2~@nGgAI:S,SB" origintype="lists_setIndex" output="false" tooltip="function(){var mode=thisBlock.getFieldValue(&quot;MODE&quot;),where=thisBlock.getFieldValue(&quot;WHERE&quot;),tooltip=&quot;&quot;;switch(mode+&quot; &quot;+where){case&quot;SET FROM_START&quot;:case&quot;SET FROM_END&quot;:tooltip=Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_SET_FROM;break;case&quot;SET FIRST&quot;:tooltip=Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_SET_FIRST;break;case&quot;SET LAST&quot;:tooltip=Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_SET_LAST;break;case&quot;SET RANDOM&quot;:tooltip=Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_SET_RANDOM;break;case&quot;INSERT FROM_START&quot;:case&quot;INSERT FROM_END&quot;:tooltip=Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_INSERT_FROM;break;case&quot;INSERT FIRST&quot;:tooltip=Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_INSERT_FIRST;break;case&quot;INSERT LAST&quot;:tooltip=Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_INSERT_LAST;break;case&quot;INSERT RANDOM&quot;:tooltip=Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_INSERT_RANDOM;}return(&quot;FROM_START&quot;==where||&quot;FROM_END&quot;==where)&amp;&amp;(tooltip+=&quot;  &quot;+Blockly.Msg.LISTS_INDEX_FROM_START_TOOLTIP.replace(&quot;%1&quot;,thisBlock.workspace.options.oneBasedIndex?&quot;#1&quot;:&quot;#0&quot;)),tooltip}" type="lists_setIndex">
+                    <mutation at="false"/>
+                    <field customattributes="" name="MODE">INSERT</field>
+                    <field customattributes="" name="WHERE">LAST</field>
+                    <value name="LIST">
+                      <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="u(D=YAXN/h!.gqH*$me(" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">response</field>
+                      </block>
+                    </value>
+                    <value name="TO">
+                      <block asynccall="false" colour="#917731" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="wT:P9syPrOJ(UAw,lr72" multilayer="false" namespace="cronapi.map.Operations.createObjectMapWith" origintype="maps_create_with" output="true" returntype="ObjectType.MAP" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ECriar%20objeto%20mapa%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20cria%20um%20objeto%20mapa%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Valor(es)%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Valores%20a%20serem%20adicionados%20na%20cria%C3%A7%C3%A3o%20do%20mapa%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Mapa%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.map.Operations.createObjectMapWith%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="maps_create_with">
+                        <mutation name="{{cronapi.map.Operations.createObjectMapWith}}">
+                          <arg name="nome"/>
+                          <arg name="cpf"/>
+                        </mutation>
+                        <value name="ARG0">
+                          <block asynccall="false" colour="#aa2f00" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="O9diaBsuDJnXPtZue15h" multilayer="false" namespace="cronapi.database.Operations.getField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20registro%20do%20cursor%20atual%20da%20fonte%20de%20dados%20%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Fonte%20de%20dados%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Nome%20do%20campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.database.Operations.getField%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+                            <mutation name="{{cronapi.database.Operations.getField}}">
+                              <arg name="Fonte de dados"/>
+                              <arg name="Nome do campo"/>
+                            </mutation>
+                            <value name="PARAM0">
+                              <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="-}%QxaH~L8=K!/MUv!yu" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                                <field customattributes="" name="VAR">i</field>
+                              </block>
+                            </value>
+                            <value name="PARAM1">
+                              <block asynccall="false" colour="#db802b" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="nVhRz*ulJN*g5f7,mYas" origintype="procedures_get_field_datasource" output="true" type="procedures_get_field_datasource">
+                                <mutation name="">
+                                  <arg label="c.nome" value="this[0]"/>
+                                  <arg label="c.cpf" value="this[1]"/>
+                                </mutation>
+                                <field customattributes="" name="SELECT">this[0]</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <block asynccall="false" colour="#aa2f00" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=";,^[]%_3y!`wFJ[RhO^V" multilayer="false" namespace="cronapi.database.Operations.getField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20registro%20do%20cursor%20atual%20da%20fonte%20de%20dados%20%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Fonte%20de%20dados%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Nome%20do%20campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.database.Operations.getField%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+                            <mutation name="{{cronapi.database.Operations.getField}}">
+                              <arg name="Fonte de dados"/>
+                              <arg name="Nome do campo"/>
+                            </mutation>
+                            <value name="PARAM0">
+                              <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="[9CWOefM!WZ:2IDSOR.]" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                                <field customattributes="" name="VAR">i</field>
+                              </block>
+                            </value>
+                            <value name="PARAM1">
+                              <block asynccall="false" colour="#db802b" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="=unQkvd9N^SVI_3@81(a" origintype="procedures_get_field_datasource" output="true" type="procedures_get_field_datasource">
+                                <mutation name="">
+                                  <arg label="c.nome" value="this[0]"/>
+                                  <arg label="c.cpf" value="this[1]"/>
+                                </mutation>
+                                <field customattributes="" name="SELECT">this[1]</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="RETURN">
+      <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="9=@%xXKC`ihFM90/-mAc" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+        <field customattributes="" name="VAR">response</field>
+      </block>
+    </value>
+  </block>
+</blockly>

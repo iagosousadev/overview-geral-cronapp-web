@@ -1,0 +1,15 @@
+{
+  "name": "io.cronapp.apps.overviewgeralcronapp",
+  "displayName": "Overview Geral Cronapp",
+  "version": "1.0.0",
+  "description": "Overview Geral Cronapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CronApp IDE",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cronapi-js": "^2.8.28"
+  }
+}

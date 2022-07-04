@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" id="definitions_08228312-30c2-4f07-a310-8b59e767aec0" targetNamespace="http://www.omg.org/spec/BPMN/20100524/MODEL">
+  <process id="process_58d66ec0-1973-4394-a9d8-0ba536d00b6f" isExecutable="true"/>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_a130dbdb-9b4b-4c29-b021-ebef2b8abefa">
+    <bpmndi:BPMNPlane bpmnElement="process_58d66ec0-1973-4394-a9d8-0ba536d00b6f" id="BPMNPlane_8548c29d-4d76-4e3d-9677-ae2846609b10"/>
+  </bpmndi:BPMNDiagram>
+</definitions>

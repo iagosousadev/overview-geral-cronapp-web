@@ -1,0 +1,119 @@
+{
+  "customId": "getClientesFonte",
+  "queryName": "Listar Clientes Fonte",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Cliente",
+  "entityFullName": "app.entity.Cliente",
+  "query": {
+    "isValid": true,
+    "isEmpty": false,
+    "operationType": "object",
+    "type": "select",
+    "rulesEntity": [
+      {
+        "entity": "Cliente",
+        "namespace": "app.entity.Cliente",
+        "alias": "c"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "c.nome",
+        "type": "string"
+      },
+      {
+        "func": "get",
+        "field": "c.cpf",
+        "type": "string"
+      },
+      {
+        "func": "get",
+        "field": "c.cep",
+        "type": "string"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "rules": [],
+      "not": false,
+      "valid": true
+    },
+    "isRawSql": false,
+    "multiTenant": false,
+    "paginatorAutomatic": false,
+    "pagination": false
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": [
+      "Public"
+    ],
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "nome": null,
+    "cpf": null,
+    "cep": null,
+    "endereco": null,
+    "cidade": null,
+    "uf": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "nome": null,
+    "cpf": null,
+    "cep": null,
+    "endereco": null,
+    "cidade": null,
+    "uf": null
+  },
+  "security": {
+    "id": {
+      "get": "Administrators"
+    },
+    "nome": null,
+    "cpf": null,
+    "cep": null,
+    "endereco": null,
+    "cidade": null,
+    "uf": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query614076/",
+  "audit": false
+}
