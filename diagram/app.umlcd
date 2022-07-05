@@ -737,8 +737,8 @@
       "modelType": "Table",
       "name": "AuditLog",
       "position": {
-        "x": 198,
-        "y": 8
+        "x": 224,
+        "y": 18
       },
       "queries": [],
       "realName": "",
@@ -1041,8 +1041,8 @@
       "modelType": "Table",
       "name": "Cliente",
       "position": {
-        "x": 912,
-        "y": 60
+        "x": 910,
+        "y": 28
       },
       "queries": [],
       "realName": "",
@@ -1871,8 +1871,8 @@
         "normalizedName"
       ],
       "position": {
-        "x": 120,
-        "y": 416
+        "x": 52,
+        "y": 322
       },
       "primaryKeys": [
         "id"
@@ -2293,8 +2293,8 @@
         "type"
       ],
       "position": {
-        "x": 422,
-        "y": 370
+        "x": 440,
+        "y": 310
       },
       "primaryKeys": [
         "id"
@@ -3037,8 +3037,8 @@
         "userName"
       ],
       "position": {
-        "x": 862,
-        "y": 292
+        "x": 808,
+        "y": 256
       },
       "primaryKeys": [
         "id"
@@ -3099,7 +3099,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 60,
+          "ref-x": 59.716796875,
           "text": "Texto\nRole\nUser\n"
         },
         ".uml-class-methods-rect": {
@@ -3250,8 +3250,8 @@
         "user"
       ],
       "position": {
-        "x": 59.5,
-        "y": 648.7530784606934
+        "x": 110,
+        "y": 564
       },
       "primaryKeys": [
         "id"
@@ -3272,8 +3272,8 @@
         ""
       ],
       "size": {
-        "height": 118.67057037353516,
-        "width": 106
+        "height": 118.67058563232422,
+        "width": 104.013671875
       },
       "tableName": "USER_ROLE",
       "type": "uml.Class",
