@@ -26,7 +26,7 @@
       },
       {
         "func": "get",
-        "field": "c.cep",
+        "field": "c.cpf",
         "type": "string"
       }
     ],
@@ -96,7 +96,7 @@
     },
     "nome": null,
     "cpf": {
-      "get": "Administrators"
+      "get": "Public"
     },
     "cep": null,
     "endereco": null,

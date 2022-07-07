@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly audit="false" bpmnAble="false" formTarget="" resourceType="JAVA" ruleDescription="ClienteRest" ruleName="ClienteRest" ruleSecurity="{&quot;get&quot;:&quot;Public&quot;,&quot;execute&quot;:&quot;Public&quot;}" ruleSynchronous="false" ruleTimeout="300" ruleType="I" soap="false">
-  <metadata scale="1" scrollx="448.90000000000003" scrolly="-65.99999999999994" target="Anb:u5+^,0vLkL9QIqn5"/>
-  <block asynccall="false" colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-332" y="133">
+  <metadata scale="1" scrollx="496.90000000000003" scrolly="-57.999999999999886" target="LQ=wtDMXZu`Maor^02qC"/>
+  <block asynccall="false" colour="#fca03b" id="LQ=wtDMXZu`Maor^02qC" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-382" y="128">
+    <field customattributes="" name="NAME">exemploFuncao</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" dependencyby="LQ=wtDMXZu`Maor^02qC" id="-v?P4vY)v.sWMtV2.%d;" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+        <field customattributes="" name="VAR">item</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#5b6da5" dependencyby="LQ=wtDMXZu`Maor^02qC" id="GF~//:uGF;+zq+!+^Uf-" origintype="math_arithmetic" output="true" tooltip="function () { [native code] }" type="math_arithmetic">
+            <mutation items="2"/>
+            <field customattributes="" name="OP1">ADD</field>
+            <value name="ARG0">
+              <block asynccall="false" colour="#5b67a5" dependencyby="LQ=wtDMXZu`Maor^02qC" id="5^cN4{rXABgNQ+P#C=Vr" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">1</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block asynccall="false" colour="#5b67a5" dependencyby="LQ=wtDMXZu`Maor^02qC" id="73TOBm3.%q/@Rjj*$=E;" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block asynccall="false" colour="#5ba58c" dependencyby="LQ=wtDMXZu`Maor^02qC" id="7I^%.};QbK6P4c!bC=fM" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+            <value name="TEXT">
+              <shadow asynccall="false" colour="#5ba593" dependencyby="LQ=wtDMXZu`Maor^02qC" id="p,5+g;.Cf.VC8Zz^R,!C" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field customattributes="" name="TEXT">Ola mundo!</field>
+              </shadow>
+              <block asynccall="false" colour="#0088ee" dependencyby="LQ=wtDMXZu`Maor^02qC" id="xp=*VgM):h(7y4,*1d+9" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                <field customattributes="" name="VAR">item</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-405" y="133">
     <field customattributes="" name="NAME">getCliente</field>
     <comment h="80" pinned="false" w="160">ClienteRest</comment>
     <statement name="STACK">

@@ -5,6 +5,7 @@ window.dataSourceMap["app.AuditLog"] = { customId: "app.entity.AuditLog", servic
 window.dataSourceMap["app.Cliente"] = { customId: "app.entity.Cliente", serviceUrl: "api/cronapi/crud/app.entity.Cliente", serviceUrlODATA: "/api/cronapi/odata/v2/app/Cliente" };
 window.dataSourceMap["app.Device"] = { customId: "app.entity.Device", serviceUrl: "api/cronapi/crud/app.entity.Device", serviceUrlODATA: "/api/cronapi/odata/v2/app/Device" };
 window.dataSourceMap["app.Login"] = { customId: "app.entity.Login", serviceUrl: "api/cronapi/crud/app.entity.Login", serviceUrlODATA: "/api/cronapi/odata/v2/app/Login" };
+window.dataSourceMap["app.Produto"] = { customId: "app.entity.Produto", serviceUrl: "api/cronapi/crud/app.entity.Produto", serviceUrlODATA: "/api/cronapi/odata/v2/app/Produto" };
 window.dataSourceMap["app.Role"] = { customId: "app.entity.Role", serviceUrl: "api/cronapi/crud/app.entity.Role", serviceUrlODATA: "/api/cronapi/odata/v2/app/Role" };
 window.dataSourceMap["app.RoleSecurable"] = { customId: "app.entity.RoleSecurable", serviceUrl: "api/cronapi/crud/app.entity.RoleSecurable", serviceUrlODATA: "/api/cronapi/odata/v2/app/RoleSecurable" };
 window.dataSourceMap["app.Securable"] = { customId: "app.entity.Securable", serviceUrl: "api/cronapi/crud/app.entity.Securable", serviceUrlODATA: "/api/cronapi/odata/v2/app/Securable" };
