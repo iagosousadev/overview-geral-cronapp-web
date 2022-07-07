@@ -26,11 +26,6 @@
       },
       {
         "func": "get",
-        "field": "c.cpf",
-        "type": "string"
-      },
-      {
-        "func": "get",
         "field": "c.cep",
         "type": "string"
       }
@@ -100,7 +95,9 @@
       "get": "Administrators"
     },
     "nome": null,
-    "cpf": null,
+    "cpf": {
+      "get": "Administrators"
+    },
     "cep": null,
     "endereco": null,
     "cidade": null,

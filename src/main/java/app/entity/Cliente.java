@@ -18,6 +18,7 @@ import cronapi.rest.security.CronappSecurity;
 @XmlRootElement
 @CronappSecurity
 @JsonFilter("app.entity.Cliente")
+@EntityListeners({cronapi.database.HistoryListener.class})
 public class Cliente implements Serializable {
 
     /**

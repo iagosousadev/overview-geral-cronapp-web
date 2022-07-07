@@ -361,7 +361,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 103.78271484375,
+          "ref-x": 103.20453643798828,
           "text": "Inteiro\nTexto\nTexto\nData e Hora com Fuso\nTexto Longo\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\n"
         },
         ".uml-class-methods-rect": {
@@ -737,8 +737,8 @@
       "modelType": "Table",
       "name": "AuditLog",
       "position": {
-        "x": 224,
-        "y": 18
+        "x": 236,
+        "y": 32
       },
       "queries": [],
       "realName": "",
@@ -751,8 +751,8 @@
       "role": "Class",
       "runtimeClass": "cronos.widgets.joint.uml.Class",
       "size": {
-        "height": 227.87567138671875,
-        "width": 232.43896484375
+        "height": 228.33023071289062,
+        "width": 231.10557556152344
       },
       "tableName": "AUDIT_LOG",
       "type": "uml.Class",
@@ -780,7 +780,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 79.875,
+          "ref-x": 80.11502838134766,
           "text": "Texto\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\n"
         },
         ".uml-class-methods-rect": {
@@ -807,7 +807,7 @@
           "stroke-width": 2
         }
       },
-      "audit": false,
+      "audit": true,
       "fields": [
         {
           "name": "id",
@@ -1041,8 +1041,8 @@
       "modelType": "Table",
       "name": "Cliente",
       "position": {
-        "x": 910,
-        "y": 28
+        "x": 876,
+        "y": 46
       },
       "queries": [],
       "realName": "",
@@ -1050,8 +1050,8 @@
       "role": "Auto",
       "runtimeClass": "cronos.widgets.joint.uml.Class",
       "size": {
-        "height": 162.20000457763672,
-        "width": 124.171875
+        "height": 162.65454864501953,
+        "width": 123.65246200561523
       },
       "tableName": "CLIENTE",
       "tableScheme": null,
@@ -1583,6 +1583,141 @@
       "angle": 0,
       "attributes": [
         "id:java.lang.String",
+        "nome:java.lang.String"
+      ],
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "height": 70,
+          "transform": "translate(0,50)"
+        },
+        ".uml-class-attrs-text": {
+          "font-size": 11,
+          "text": "id\nnome\n"
+        },
+        ".uml-class-attrs-value": {
+          "font-size": 11,
+          "ref-x": 61.76204872131348,
+          "text": "Texto\nTexto\n"
+        },
+        ".uml-class-methods-rect": {
+          "height": 30,
+          "transform": "translate(0,120)"
+        },
+        ".uml-class-methods-text": {
+          "fill": "#0066FF",
+          "font-size": 11,
+          "text": ""
+        },
+        ".uml-class-name-rect": {
+          "height": 50,
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-name-text": {
+          "fill": "#000",
+          "font-size": 12,
+          "font-weight": "bold",
+          "text": "Produto"
+        },
+        "rect": {
+          "stroke": "yellow",
+          "stroke-width": 2
+        }
+      },
+      "audit": false,
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.String",
+          "dbName": "id",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "UUID.randomUUID().toString().toUpperCase()",
+          "label": "Id",
+          "mask": "",
+          "isPrimaryKey": true,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "pkType": "UUID",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "useOuterJoin": false
+        },
+        {
+          "name": "nome",
+          "type": "java.lang.String",
+          "dbName": "nome",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Nome",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "useOuterJoin": false
+        }
+      ],
+      "generateView": "Auto",
+      "id": "11d9923c-219f-4fb3-882c-8dd73ad89247",
+      "isRest": "true",
+      "methods": [],
+      "modelType": "Table",
+      "name": "Produto",
+      "position": {
+        "x": 1220,
+        "y": 108
+      },
+      "queries": [],
+      "realName": "",
+      "restSecurity": null,
+      "role": "Auto",
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "size": {
+        "height": 108.32121276855469,
+        "width": 105.29948234558105
+      },
+      "tableName": "",
+      "tableScheme": null,
+      "type": "uml.Class",
+      "z": 25
+    },
+    {
+      "angle": 0,
+      "attributes": [
+        "id:java.lang.String",
         "builtIn:java.lang.Boolean",
         "membershipEnabled:java.lang.Boolean",
         "name:java.lang.String",
@@ -1600,7 +1735,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 134.890625,
+          "ref-x": 135.13645935058594,
           "text": "Texto\nLógico\nLógico\nTexto\nTexto\nApplication\n"
         },
         ".uml-class-methods-rect": {
@@ -1871,8 +2006,8 @@
         "normalizedName"
       ],
       "position": {
-        "x": 52,
-        "y": 322
+        "x": 242,
+        "y": 340
       },
       "primaryKeys": [
         "id"
@@ -1895,8 +2030,8 @@
         ""
       ],
       "size": {
-        "height": 151.28695678710938,
-        "width": 206.71875
+        "height": 151.74149322509766,
+        "width": 207.10442733764648
       },
       "tableName": "ROLE",
       "type": "uml.Class",
@@ -1923,7 +2058,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 81.703125,
+          "ref-x": 81.94120025634766,
           "text": "Texto\nRole\nSecurable\n"
         },
         ".uml-class-methods-rect": {
@@ -2074,8 +2209,8 @@
         "securable"
       ],
       "position": {
-        "x": 256,
-        "y": 674
+        "x": 226,
+        "y": 656
       },
       "primaryKeys": [
         "id"
@@ -2096,8 +2231,8 @@
         ""
       ],
       "size": {
-        "height": 118.67058563232422,
-        "width": 149.25
+        "height": 119.12512969970703,
+        "width": 148.71932220458984
       },
       "tableName": "ROLE_SECURABLE",
       "type": "uml.Class",
@@ -2122,7 +2257,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 86.59375,
+          "ref-x": 86.83963012695312,
           "text": "Texto\nTexto\nApplication\n"
         },
         ".uml-class-methods-rect": {
@@ -2293,8 +2428,8 @@
         "type"
       ],
       "position": {
-        "x": 440,
-        "y": 310
+        "x": 520,
+        "y": 326
       },
       "primaryKeys": [
         "id"
@@ -2316,8 +2451,8 @@
         ""
       ],
       "size": {
-        "height": 118.67058563232422,
-        "width": 158.421875
+        "height": 119.1251449584961,
+        "width": 158.80759811401367
       },
       "tableName": "SECURABLE",
       "type": "uml.Class",
@@ -3099,7 +3234,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 59.716796875,
+          "ref-x": 60.16142654418945,
           "text": "Texto\nRole\nUser\n"
         },
         ".uml-class-methods-rect": {
@@ -3250,8 +3385,8 @@
         "user"
       ],
       "position": {
-        "x": 110,
-        "y": 564
+        "x": 84,
+        "y": 576
       },
       "primaryKeys": [
         "id"
@@ -3272,8 +3407,8 @@
         ""
       ],
       "size": {
-        "height": 118.67058563232422,
-        "width": 104.013671875
+        "height": 119.12512969970703,
+        "width": 103.69886016845703
       },
       "tableName": "USER_ROLE",
       "type": "uml.Class",
@@ -4552,6 +4687,7 @@
         "2016ad54-a0f9-4337-ad10-694a48f0435c",
         "dcc00b32-aa33-47bd-bc4d-91da88f25cbc",
         "4cbe47fe-4f4b-43e9-960b-4b5cc2633aef",
+        "11d9923c-219f-4fb3-882c-8dd73ad89247",
         "55beab5c-2393-4e53-879f-87138492feb1",
         "a3e3d744-323e-458c-aad1-1ad7240727b7",
         "53b97115-f8a3-4221-9ce6-bad2672b8bd5",
