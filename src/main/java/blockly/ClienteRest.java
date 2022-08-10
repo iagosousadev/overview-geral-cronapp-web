@@ -21,8 +21,8 @@ public static final int TIMEOUT = 300;
 public static Var getCliente() throws Exception {
  return new Callable<Var>() {
 
-   private Var item = Var.VAR_NULL;
    private Var response = Var.VAR_NULL;
+   private Var item = Var.VAR_NULL;
    private Var i = Var.VAR_NULL;
 
    public Var call() throws Exception {
@@ -41,30 +41,13 @@ public static Var getCliente() throws Exception {
         cronapi.database.Operations.getField(i,
         Var.valueOf("this[0]"))) , Var.valueOf("cpf",
         cronapi.database.Operations.getField(i,
-        Var.valueOf("this[1]")))));
+        Var.valueOf("this[1]"))) , Var.valueOf("mensagem",
+        Var.valueOf(
+        Var.valueOf("Olá, ").toString() +
+        cronapi.database.Operations.getField(i,
+        Var.valueOf("this[0]")).toString()))));
     } // end for
     return response;
-   }
- }.call();
-}
-
-/**
- */
-// Descreva esta função...
-public static void exemploFuncao() throws Exception {
-  new Callable<Var>() {
-
-   private Var item = Var.VAR_NULL;
-
-   public Var call() throws Exception {
-
-    item =
-    cronapi.math.Operations.sum(
-    Var.valueOf(1),
-    Var.valueOf(1));
-
-    System.out.println(item.getObjectAsString());
-   return Var.VAR_NULL;
    }
  }.call();
 }

@@ -737,8 +737,8 @@
       "modelType": "Table",
       "name": "AuditLog",
       "position": {
-        "x": 236,
-        "y": 32
+        "x": 224,
+        "y": 28
       },
       "queries": [],
       "realName": "",
@@ -1041,8 +1041,8 @@
       "modelType": "Table",
       "name": "Cliente",
       "position": {
-        "x": 876,
-        "y": 46
+        "x": 792,
+        "y": 30
       },
       "queries": [],
       "realName": "",
@@ -1596,8 +1596,8 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 61.76204872131348,
-          "text": "Texto\nTexto\n"
+          "ref-x": 61.53125,
+          "text": "String\nString\n"
         },
         ".uml-class-methods-rect": {
           "height": 30,
@@ -1697,8 +1697,8 @@
       "modelType": "Table",
       "name": "Produto",
       "position": {
-        "x": 1220,
-        "y": 108
+        "x": 954,
+        "y": 30
       },
       "queries": [],
       "realName": "",
@@ -1706,8 +1706,8 @@
       "role": "Auto",
       "runtimeClass": "cronos.widgets.joint.uml.Class",
       "size": {
-        "height": 108.32121276855469,
-        "width": 105.29948234558105
+        "height": 107.86666870117188,
+        "width": 107.28125
       },
       "tableName": "",
       "tableScheme": null,
@@ -2006,8 +2006,8 @@
         "normalizedName"
       ],
       "position": {
-        "x": 242,
-        "y": 340
+        "x": 178,
+        "y": 318
       },
       "primaryKeys": [
         "id"
@@ -2030,7 +2030,7 @@
         ""
       ],
       "size": {
-        "height": 151.74149322509766,
+        "height": 151.7415008544922,
         "width": 207.10442733764648
       },
       "tableName": "ROLE",
@@ -2209,8 +2209,8 @@
         "securable"
       ],
       "position": {
-        "x": 226,
-        "y": 656
+        "x": 288,
+        "y": 628
       },
       "primaryKeys": [
         "id"
@@ -2428,8 +2428,8 @@
         "type"
       ],
       "position": {
-        "x": 520,
-        "y": 326
+        "x": 464,
+        "y": 316
       },
       "primaryKeys": [
         "id"
@@ -3385,8 +3385,8 @@
         "user"
       ],
       "position": {
-        "x": 84,
-        "y": 576
+        "x": 140,
+        "y": 630
       },
       "primaryKeys": [
         "id"
@@ -3643,7 +3643,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 145.6875,
+          "ref-x": 145.8370132446289,
           "text": "Texto\nSecurable\nTexto\nLógico\nLógico\nLógico\nLógico\nLógico\nLógico\nLógico\nLógico\nApplication\n"
         },
         ".uml-class-methods-rect": {
@@ -4052,8 +4052,8 @@
       "modelType": "Table",
       "name": "View",
       "position": {
-        "x": 502,
-        "y": 628
+        "x": 508,
+        "y": 586
       },
       "queries": [],
       "realName": "",
@@ -4061,8 +4061,8 @@
       "role": "Class",
       "runtimeClass": "cronos.widgets.joint.uml.Class",
       "size": {
-        "height": 216.91429138183594,
-        "width": 217.515625
+        "height": 217.36886596679688,
+        "width": 217.80498123168945
       },
       "tableName": "VIEW",
       "tableScheme": null,
@@ -4221,6 +4221,10 @@
         ".marker-target": {
           "d": "",
           "fill": ""
+        },
+        "rect": {
+          "stroke": "yellow",
+          "stroke-width": 2
         }
       },
       "id": "5f46464c-aa08-42a5-b9e9-d4cfddb1dbaa",
@@ -4240,6 +4244,12 @@
           }
         }
       ],
+      "previous_source": {
+        "id": "4cbe47fe-4f4b-43e9-960b-4b5cc2633aef"
+      },
+      "previous_target": {
+        "id": "53b97115-f8a3-4221-9ce6-bad2672b8bd5"
+      },
       "queries": [],
       "relationFields": [
         "securable:target"
@@ -4249,7 +4259,9 @@
         "id": "4cbe47fe-4f4b-43e9-960b-4b5cc2633aef"
       },
       "target": {
-        "id": "53b97115-f8a3-4221-9ce6-bad2672b8bd5"
+        "id": "53b97115-f8a3-4221-9ce6-bad2672b8bd5",
+        "x": 432,
+        "y": 612
       },
       "type": "uml.Composition",
       "vertices": [],
