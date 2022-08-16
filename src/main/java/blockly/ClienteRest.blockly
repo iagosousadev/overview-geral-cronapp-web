@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly audit="false" bpmnAble="false" formTarget="" resourceType="JAVA" ruleDescription="ClienteRest" ruleName="ClienteRest" ruleSecurity="{&quot;get&quot;:&quot;Public&quot;,&quot;execute&quot;:&quot;Public&quot;}" ruleSynchronous="false" ruleTimeout="300" ruleType="I" soap="false">
-  <metadata scale="1" scrollx="528.9000000000001" scrolly="-60.999999999999886" target="Anb:u5+^,0vLkL9QIqn5"/>
-  <block asynccall="false" colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-412" y="128">
+  <metadata scale="1" scrollx="465.9" scrolly="-84.19999999999999" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-407" y="154">
     <field customattributes="" name="NAME">getCliente</field>
     <comment h="80" pinned="false" w="160">ClienteRest</comment>
     <statement name="STACK">
@@ -93,7 +93,7 @@
                             <mutation items="2"/>
                             <value name="ADD0">
                               <block asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="8,)E/De:]]jcBmg7Qd~}" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                                <field customattributes="" name="TEXT">Olá, </field>
+                                <field customattributes="" name="TEXT">Olá Mundo!</field>
                               </block>
                             </value>
                             <value name="ADD1">

@@ -15,7 +15,8 @@
       {
         "entity": "Cliente",
         "namespace": "app.entity.Cliente",
-        "alias": "c"
+        "alias": "c",
+        "name": "Cliente"
       }
     ],
     "rulesSelect": [
@@ -96,7 +97,7 @@
     },
     "nome": null,
     "cpf": {
-      "get": "Public"
+      "get": "Administrators"
     },
     "cep": null,
     "endereco": null,

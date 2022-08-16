@@ -43,7 +43,7 @@ public static Var getCliente() throws Exception {
         cronapi.database.Operations.getField(i,
         Var.valueOf("this[1]"))) , Var.valueOf("mensagem",
         Var.valueOf(
-        Var.valueOf("Olá, ").toString() +
+        Var.valueOf("Olá Mundo!").toString() +
         cronapi.database.Operations.getField(i,
         Var.valueOf("this[0]")).toString()))));
     } // end for

@@ -361,7 +361,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 103.20453643798828,
+          "ref-x": 103.78271484375,
           "text": "Inteiro\nTexto\nTexto\nData e Hora com Fuso\nTexto Longo\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\n"
         },
         ".uml-class-methods-rect": {
@@ -737,8 +737,8 @@
       "modelType": "Table",
       "name": "AuditLog",
       "position": {
-        "x": 224,
-        "y": 28
+        "x": 208,
+        "y": 26
       },
       "queries": [],
       "realName": "",
@@ -751,8 +751,8 @@
       "role": "Class",
       "runtimeClass": "cronos.widgets.joint.uml.Class",
       "size": {
-        "height": 228.33023071289062,
-        "width": 231.10557556152344
+        "height": 227.87567138671875,
+        "width": 232.43896484375
       },
       "tableName": "AUDIT_LOG",
       "type": "uml.Class",
@@ -1080,7 +1080,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 111.4375,
+          "ref-x": 111.58023071289062,
           "text": "Texto\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\n"
         },
         ".uml-class-methods-rect": {
@@ -1300,8 +1300,8 @@
       "multitenantContextJsonIgnore": "false",
       "name": "Device",
       "position": {
-        "x": 18,
-        "y": 32
+        "x": 14,
+        "y": 28
       },
       "queries": [],
       "restPath": "",
@@ -1309,8 +1309,8 @@
       "role": "Class",
       "runtimeClass": "cronos.widgets.joint.uml.Class",
       "size": {
-        "height": 162.20000457763672,
-        "width": 155.734375
+        "height": 162.65454864501953,
+        "width": 155.1176643371582
       },
       "tableName": "DEVICE",
       "tableScheme": null,
@@ -1735,7 +1735,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 135.13645935058594,
+          "ref-x": 134.890625,
           "text": "Texto\nLógico\nLógico\nTexto\nTexto\nApplication\n"
         },
         ".uml-class-methods-rect": {
@@ -2006,8 +2006,8 @@
         "normalizedName"
       ],
       "position": {
-        "x": 178,
-        "y": 318
+        "x": 202,
+        "y": 314
       },
       "primaryKeys": [
         "id"
@@ -2030,8 +2030,8 @@
         ""
       ],
       "size": {
-        "height": 151.7415008544922,
-        "width": 207.10442733764648
+        "height": 151.28695678710938,
+        "width": 206.71875
       },
       "tableName": "ROLE",
       "type": "uml.Class",
@@ -2257,7 +2257,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 86.83963012695312,
+          "ref-x": 86.59375,
           "text": "Texto\nTexto\nApplication\n"
         },
         ".uml-class-methods-rect": {
@@ -2428,8 +2428,8 @@
         "type"
       ],
       "position": {
-        "x": 464,
-        "y": 316
+        "x": 478,
+        "y": 320
       },
       "primaryKeys": [
         "id"
@@ -2451,8 +2451,8 @@
         ""
       ],
       "size": {
-        "height": 119.1251449584961,
-        "width": 158.80759811401367
+        "height": 118.67058563232422,
+        "width": 158.421875
       },
       "tableName": "SECURABLE",
       "type": "uml.Class",
